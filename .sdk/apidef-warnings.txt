@@ -1,0 +1,324 @@
+{
+  point: "warning"
+  err: {
+    name: "Error"
+    message: `SUMMARY (1 errors): \u001b[91m[aontu/multisource_not_found]:\u001b[0m source not found: model/guide/base-guide.aontu
+  \u001b[34m-->\u001b[0m C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\\model\\guide\\guide.aontu:5:1
+\u001b[34m  3 | \u001b[0m@"@voxgig/apidef/model/guide.aontu"
+\u001b[34m  4 | \u001b[0m
+\u001b[34m  5 | \u001b[0m@"model/guide/base-guide.aontu"
+      \u001b[34m^ source not found: model/guide/base-guide.aontu\u001b[0m
+\u001b[34m  6 | \u001b[0m
+\u001b[34m  7 | \u001b[0m
+
+  The source path model/guide/base-guide.aontu was not found.
+  
+  Search paths:
+  
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\\model\\guide\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\\model\\guide\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\\model\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\
+ode_modules\\model\\guide\\base-guide.aontu
+  model/guide/base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\@voxgig\\model\\bin\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\@voxgig\\model\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\@voxgig\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\@voxgig\\model\\bin\\guide/base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\@voxgig\\model\\guide/base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\@voxgig\\guide/base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\\guide/base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\guide/base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\guide/base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\guide/base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\guide/base-guide.aontu
+  C:\\Users\\faruk\\Documents\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\guide/base-guide.aontu
+  C:\\Users\\faruk\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\guide/base-guide.aontu
+  C:\\Users\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\guide/base-guide.aontu
+  C:\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\guide/base-guide.aontu
+  C:\\Users\\guide/base-guide.aontu
+  C:\\guide/base-guide.aontu`
+    stack: `AontuError: \u001b[91m[aontu/multisource_not_found]:\u001b[0m source not found: model/guide/base-guide.aontu
+  \u001b[34m-->\u001b[0m C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\\model\\guide\\guide.aontu:5:1
+\u001b[34m  3 | \u001b[0m@"@voxgig/apidef/model/guide.aontu"
+\u001b[34m  4 | \u001b[0m
+\u001b[34m  5 | \u001b[0m@"model/guide/base-guide.aontu"
+      \u001b[34m^ source not found: model/guide/base-guide.aontu\u001b[0m
+\u001b[34m  6 | \u001b[0m
+\u001b[34m  7 | \u001b[0m
+
+  The source path model/guide/base-guide.aontu was not found.
+  
+  Search paths:
+  
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\\model\\guide\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\\model\\guide\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\\model\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\
+ode_modules\\model\\guide\\base-guide.aontu
+  model/guide/base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\@voxgig\\model\\bin\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\@voxgig\\model\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\@voxgig\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\@voxgig\\model\\bin\\guide/base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\@voxgig\\model\\guide/base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\@voxgig\\guide/base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\\guide/base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\guide/base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\guide/base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\guide/base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\guide/base-guide.aontu
+  C:\\Users\\faruk\\Documents\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\guide/base-guide.aontu
+  C:\\Users\\faruk\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\guide/base-guide.aontu
+  C:\\Users\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\guide/base-guide.aontu
+  C:\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\guide/base-guide.aontu
+  C:\\Users\\guide/base-guide.aontu
+  C:\\guide/base-guide.aontu
+    at handleErrors (C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\aontu\\dist\\aontu.js:240:19)
+    at Aontu.parse (C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\aontu\\dist\\aontu.js:130:9)
+    at Aontu.generate (C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\aontu\\dist\\aontu.js:184:29)
+    at buildGuide (C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\@voxgig\\apidef\\dist\\guide\\guide.js:161:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.generate (C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\@voxgig\\apidef\\dist\\apidef.js:212:32)
+    at async Object.build [as action] (C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\@voxgig\\apidef\\dist\\apidef.js:402:16)
+    at async Object.local_producer [as build] (C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\@voxgig\\model\\dist\\producer\\local.js:55:24)
+    at async BuildImpl.run (C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\@voxgig\\model\\dist\\build.js:56:30)
+    at async Watch.run (C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\@voxgig\\model\\dist\\watch.js:166:22)`
+    errs: null
+  }
+
+  note: `!! BUILD FAILED !! SUMMARY (1 errors): \u001b[91m[aontu/multisource_not_found]:\u001b[0m source not found: model/guide/base-guide.aontu
+  \u001b[34m-->\u001b[0m C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\\model\\guide\\guide.aontu:5:1
+\u001b[34m  3 | \u001b[0m@"@voxgig/apidef/model/guide.aontu"
+\u001b[34m  4 | \u001b[0m
+\u001b[34m  5 | \u001b[0m@"model/guide/base-guide.aontu"
+      \u001b[34m^ source not found: model/guide/base-guide.aontu\u001b[0m
+\u001b[34m  6 | \u001b[0m
+\u001b[34m  7 | \u001b[0m
+
+  The source path model/guide/base-guide.aontu was not found.
+  
+  Search paths:
+  
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\\model\\guide\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\\model\\guide\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\\model\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\
+ode_modules\\model\\guide\\base-guide.aontu
+  model/guide/base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\@voxgig\\model\\bin\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\@voxgig\\model\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\@voxgig\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\@voxgig\\model\\bin\\guide/base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\@voxgig\\model\\guide/base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\@voxgig\\guide/base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\.sdk\\guide/base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\generated\\guide/base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\voxgig-hackernews-sdk\\guide/base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\work\\guide/base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\bra\\guide/base-guide.aontu
+  C:\\Users\\faruk\\Documents\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\2026-09-25\\guide/base-guide.aontu
+  C:\\Users\\faruk\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\Codex\\guide/base-guide.aontu
+  C:\\Users\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\Documents\\guide/base-guide.aontu
+  C:\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\
+ode_modules\\model\\guide\\base-guide.aontu
+  C:\\Users\\faruk\\guide/base-guide.aontu
+  C:\\Users\\guide/base-guide.aontu
+  C:\\guide/base-guide.aontu`
+}

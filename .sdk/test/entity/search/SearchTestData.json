@@ -1,0 +1,73 @@
+{
+  "existing": {
+    "search": {
+      "SEARCH00": {
+        "author": "s78",
+        "children": [],
+        "comment_text": "s7a",
+        "created_at": "s7b",
+        "created_at_i": 124,
+        "num_comments": 125,
+        "objectID": "s7e",
+        "points": 127,
+        "story_id": "STORY01",
+        "tags": [],
+        "title": "s82",
+        "url": "s83"
+      },
+      "SEARCH01": {
+        "author": "sf0",
+        "children": [],
+        "comment_text": "sf2",
+        "created_at": "sf3",
+        "created_at_i": 244,
+        "num_comments": 245,
+        "objectID": "sf6",
+        "points": 247,
+        "story_id": "STORY01",
+        "tags": [],
+        "title": "sfa",
+        "url": "sfb"
+      },
+      "SEARCH02": {
+        "author": "s168",
+        "children": [],
+        "comment_text": "s16a",
+        "created_at": "s16b",
+        "created_at_i": 364,
+        "num_comments": 365,
+        "objectID": "s16e",
+        "points": 367,
+        "story_id": "STORY01",
+        "tags": [],
+        "title": "s172",
+        "url": "s173"
+      }
+    }
+  },
+  "new": {
+    "search": {
+      "search_ref01": {
+        "author": "s1e0",
+        "children": [],
+        "comment_text": "s1e2",
+        "created_at": "s1e3",
+        "created_at_i": 484,
+        "num_comments": 485,
+        "objectID": "s1e6",
+        "points": 487,
+        "story_id": "STORY01",
+        "tags": [],
+        "title": "s1ea",
+        "url": "s1eb"
+      }
+    }
+  },
+  "requests": {
+    "GET /search": {
+      "provenance": "operation-contract",
+      "version": 2,
+      "source": "openapi3"
+    }
+  }
+}

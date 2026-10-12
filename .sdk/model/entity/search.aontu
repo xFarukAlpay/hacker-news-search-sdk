@@ -1,0 +1,161 @@
+# Entity: search
+
+main: kit: entity: search: {
+
+  alias: field: {}
+
+  fields: {
+    author: {
+      h: "Author"
+      n: "author"
+      r: false
+      t: "`$STRING`"
+    }
+    children: {
+      h: "Children"
+      n: "children"
+      r: false
+      t: "`$ARRAY`"
+    }
+    comment_text: {
+      h: "Comment Text"
+      n: "comment_text"
+      r: false
+      t: "`$STRING`"
+    }
+    created_at: {
+      fo: "date-time"
+      h: "Created At"
+      n: "created_at"
+      r: false
+      t: "`$STRING`"
+    }
+    created_at_i: {
+      h: "Created At I"
+      n: "created_at_i"
+      r: false
+      t: "`$INTEGER`"
+    }
+    num_comments: {
+      h: "Num Comments"
+      n: "num_comments"
+      r: false
+      t: "`$INTEGER`"
+    }
+    objectID: {
+      h: "Object Id"
+      n: "objectID"
+      r: false
+      t: "`$STRING`"
+    }
+    points: {
+      h: "Points"
+      n: "points"
+      r: false
+      t: "`$INTEGER`"
+    }
+    story_id: {
+      h: "Story Id"
+      n: "story_id"
+      r: false
+      t: "`$INTEGER`"
+    }
+    tags: {
+      h: "Tags"
+      n: "tags"
+      r: false
+      t: "`$ARRAY`"
+    }
+    title: {
+      h: "Title"
+      n: "title"
+      r: false
+      t: "`$STRING`"
+    }
+    url: {
+      fo: "uri"
+      h: "Url"
+      n: "url"
+      r: false
+      t: "`$STRING`"
+    }
+  }
+
+  name: "search"
+  op: {
+    list: {
+      name: "list"
+      points: [
+        {
+          co: {
+            id: "GET /search"
+            source: "openapi3"
+            version: 2
+          }
+          g: {
+            query: [
+              {
+                k: "query"
+                n: "hits_per_page"
+                or: "hitsPerPage"
+                r: false
+                t: "`$INTEGER`"
+              }
+              {
+                k: "query"
+                n: "numeric_filter"
+                or: "numericFilters"
+                r: false
+                t: "`$STRING`"
+              }
+              {
+                k: "query"
+                n: "page"
+                or: "page"
+                r: false
+                t: "`$INTEGER`"
+              }
+              {
+                k: "query"
+                n: "query"
+                or: "query"
+                r: true
+                t: "`$STRING`"
+              }
+              {
+                k: "query"
+                n: "tag"
+                or: "tags"
+                r: false
+                t: "`$STRING`"
+              }
+            ]
+          }
+          m: "GET"
+          o: "/search"
+          q: {
+            exist: [
+              "query"
+            ]
+          }
+          rs: {
+            kind: "json"
+            media: "application/json"
+          }
+          s: [
+            {
+              lit: "search"
+            }
+          ]
+          t: {
+            req: "`reqdata`"
+            res: "`body.hits`"
+          }
+        }
+      ]
+    }
+  }
+
+
+
+}

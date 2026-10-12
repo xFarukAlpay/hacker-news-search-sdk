@@ -1,0 +1,48 @@
+{
+  "existing": {
+    "user": {
+      "USER00": {
+        "about": "s3c",
+        "created_at": "s3d",
+        "id": "USER00",
+        "karma": 63,
+        "submitted": [],
+        "username": "s41"
+      },
+      "USER01": {
+        "about": "s78",
+        "created_at": "s79",
+        "id": "USER01",
+        "karma": 123,
+        "submitted": [],
+        "username": "s7d"
+      },
+      "USER02": {
+        "about": "sb4",
+        "created_at": "sb5",
+        "id": "USER02",
+        "karma": 183,
+        "submitted": [],
+        "username": "sb9"
+      }
+    }
+  },
+  "new": {
+    "user": {
+      "user_ref01": {
+        "about": "sf0",
+        "created_at": "sf1",
+        "karma": 243,
+        "submitted": [],
+        "username": "sf5"
+      }
+    }
+  },
+  "requests": {
+    "GET /users/{username}": {
+      "provenance": "operation-contract",
+      "version": 2,
+      "source": "openapi3"
+    }
+  }
+}

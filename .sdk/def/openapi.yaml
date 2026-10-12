@@ -1,0 +1,178 @@
+openapi: 3.0.3
+info:
+  title: Hacker News Search API
+  version: 1.0.0
+  description: >-
+    A focused OpenAPI definition for the public Hacker News Search API operated
+    by Algolia. This definition covers story search, item details, and user
+    profiles. It is an unofficial community SDK definition.
+servers:
+  - url: https://hn.algolia.com/api/v1
+paths:
+  /search:
+    get:
+      operationId: searchStories
+      summary: Search stories, comments, and other Hacker News records
+      tags:
+        - Search
+      parameters:
+        - name: query
+          in: query
+          required: true
+          schema:
+            type: string
+          description: Full-text search term.
+        - name: tags
+          in: query
+          required: false
+          schema:
+            type: string
+          description: >-
+            Comma-separated record tags, such as story, comment, ask_hn, or
+            show_hn. The API defaults to story.
+        - name: page
+          in: query
+          required: false
+          schema:
+            type: integer
+            minimum: 0
+          description: Zero-based result page.
+        - name: hitsPerPage
+          in: query
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 100
+          description: Number of records returned per page.
+        - name: numericFilters
+          in: query
+          required: false
+          schema:
+            type: string
+          description: >-
+            Algolia numeric filters, for example points>100 or
+            created_at_i>1700000000.
+      responses:
+        '200':
+          description: Search results.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SearchResponse'
+        '4XX':
+          description: Request rejected by the upstream search service.
+  /items/{id}:
+    get:
+      operationId: getItem
+      summary: Get a Hacker News story, comment, or poll by ID
+      tags:
+        - Item
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: Numeric Hacker News item ID.
+      responses:
+        '200':
+          description: Item details.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Item'
+        '404':
+          description: Item not found.
+  /users/{username}:
+    get:
+      operationId: getUser
+      summary: Get a Hacker News user profile
+      tags:
+        - User
+      parameters:
+        - name: username
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Hacker News username.
+      responses:
+        '200':
+          description: User profile.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+        '404':
+          description: User not found.
+components:
+  schemas:
+    SearchResponse:
+      type: object
+      properties:
+        hits:
+          type: array
+          items:
+            $ref: '#/components/schemas/Item'
+        nbHits:
+          type: integer
+        page:
+          type: integer
+        nbPages:
+          type: integer
+        hitsPerPage:
+          type: integer
+        query:
+          type: string
+        processingTimeMS:
+          type: integer
+    Item:
+      type: object
+      properties:
+        objectID:
+          type: string
+        story_id:
+          type: integer
+        author:
+          type: string
+        title:
+          type: string
+        url:
+          type: string
+          format: uri
+        comment_text:
+          type: string
+        created_at:
+          type: string
+          format: date-time
+        created_at_i:
+          type: integer
+        points:
+          type: integer
+        num_comments:
+          type: integer
+        children:
+          type: array
+          items:
+            type: integer
+        _tags:
+          type: array
+          items:
+            type: string
+    User:
+      type: object
+      properties:
+        username:
+          type: string
+        about:
+          type: string
+        karma:
+          type: integer
+        created_at:
+          type: string
+          format: date-time
+        submitted:
+          type: array
+          items:
+            type: integer

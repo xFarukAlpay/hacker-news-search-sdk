@@ -1,0 +1,15 @@
+{
+  "files": [
+    "SUMMARY.md"
+  ],
+  "config": ".sdk/doc/qa/vale.ini",
+  "routes": {},
+  "quoted": {
+    "SUMMARY.md": [
+      "A focused OpenAPI definition for the public Hacker News Search API operated by Algolia. This definition covers story search, item details, and user profiles. It is an unofficial community SDK definition.",
+      "Item details",
+      "Search results",
+      "User profile"
+    ]
+  }
+}

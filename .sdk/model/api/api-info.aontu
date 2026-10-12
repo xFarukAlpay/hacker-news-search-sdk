@@ -1,0 +1,21 @@
+# API Information
+
+
+main: {
+  kit: {
+    info: {
+      auth: false
+      description: "A focused OpenAPI definition for the public Hacker News Search API operated by Algolia. This definition covers story search, item details, and user profiles. It is an unofficial community SDK definition."
+      servers: [
+        {
+          url: "https://hn.algolia.com/api/v1"
+        }
+      ]
+      summary: "A focused OpenAPI definition for the public Hacker News Search API operated by Algolia."
+      title: "Hacker News Search API"
+      version: "1.0.0"
+      website: "https://hn.algolia.com"
+    }
+  }
+}
+

@@ -1,0 +1,39 @@
+
+# Model definitions.
+@"@voxgig/apidef/model/apidef.aontu"
+@"@voxgig/sdkgen/model/sdkgen.aontu"
+
+
+name: 'hacker-news-search'
+origin: 'xFarukAlpay'
+def: 'openapi.yaml'
+
+
+# API Information
+@"model/api/api-info.aontu"
+
+
+# SDK Configuration.
+@"model/config.aontu"
+
+
+# SDK Entities
+@"model/entity/entity-index.aontu"
+
+
+# SDK Features.
+@"model/feature/feature-index.aontu"
+
+
+# SDK Targets.
+@"model/target/target-index.aontu"
+
+
+# Operation workflows.
+@"model/flow/flow-index.aontu"
+
+
+@"model/project.aontu"
+
+# Documentation editions. Settings belong in project.aontu.
+@"model/edition/edition-index.aontu"
